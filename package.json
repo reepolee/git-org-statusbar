@@ -1,7 +1,7 @@
 {
 	"name": "git-org-statusbar",
 	"displayName": "Git Org Status Bar",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"publisher": "Reepolee",
 	"description": "Shows GitHub org/repo in status bar",
 	"main": "./extension.js",
@@ -17,5 +17,27 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/reepolee/git-org-statusbar.git"
+	},
+	"contributes": {
+		"configuration": {
+			"title": "Git Org Status Bar",
+			"properties": {
+				"git-org-statusbar.displayMode": {
+					"type": "string",
+					"default": "org-repo",
+					"enum": [
+						"org-repo",
+						"org",
+						"repo"
+					],
+					"enumDescriptions": [
+						"Show full org/repo name (e.g. reepolee/demo-repo)",
+						"Show only the organization (e.g. reepolee)",
+						"Show only the repository (e.g. demo-repo)"
+					],
+					"description": "Controls what is shown in the status bar for the Git repository."
+				}
+			}
+		}
 	}
 }
