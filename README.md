@@ -22,7 +22,7 @@ ORG/REPO
 In your VS Code status bar:
 
 ```
-alesvaupotic/reepolee
+reepolee/demo-repo
 ```
 
 ---
