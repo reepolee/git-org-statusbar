@@ -1,0 +1,21 @@
+{
+	"name": "git-org-statusbar",
+	"displayName": "Git Org Status Bar",
+	"version": "0.0.5",
+	"publisher": "Reepolee",
+	"description": "Shows GitHub org/repo in status bar",
+	"main": "./extension.js",
+	"license": "MIT",
+	"icon": "icon.ico",
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"activationEvents": [
+		"workspaceContains:.git",
+		"onStartupFinished"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/reepolee/git-org-statusbar.git"
+	}
+}
