@@ -69,15 +69,13 @@ in the VS Code status bar.
 
 ## 🏢 About Reepolee
 
-This extension is developed by **Reepolee**.
-
-Website: urlReepolee[https://www.reepolee.com](https://www.reepolee.com)
+This extension is developed by [**Reepolee**](https://www.reepolee.com).
 
 ---
 
 ## 📦 Repository
 
-GitHub: [https://github.com/reepolee/git-org-statusbar](https://github.com/reepolee/git-org-statusbar)
+[https://github.com/reepolee/git-org-statusbar](https://github.com/reepolee/git-org-statusbar)
 
 ---
 
